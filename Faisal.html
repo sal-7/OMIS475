@@ -1,0 +1,53 @@
+<!-- Programmers:   Bryce Frank         Z1733433
+                    Faisal Alharbi      Z1748509-->
+
+<DOCTYPE! html>
+<html>
+    <header>
+        <title>Faisal_Alharbi_Webpage</title>
+<!-- Link to external css styles -->
+        <link rel="stylesheet" href="Faisal.css">
+<!-- Embedded css styles 
+     center: class to center an image
+     border: class to add a border to items -->
+        <style>
+            .center { 
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+                width:50%;
+            }
+            .border {
+                border-width:3px;
+                border-style:solid;
+                border-color:teal;
+            }
+        </style>
+    </header>
+    <body>
+<!--- Here we used the border concept from CH4 to add a border to the heading and picture
+      The border class is configured above and then implemented in the tags of the <h1> and <div> element below -->
+        <h1 class="border">Faisal Alharbi's Webpage</h1>
+<!-- Here we used inline css style to fill in the background of my picture -->
+        <div style="background-color:black" class="border">
+        <img    src="Faisal.JPEG"
+                alt="My headshot"
+                class="center">
+        </div>
+        <h3>Hobbies and Interests:</h3>
+<!-- Here we used the <hr> element from CH4 to add a line to 
+     seperate my list of hobbies and activities from the header -->
+        <hr>
+        <dl>
+            <dt>Fitness:</dt>
+            <dd>I excersize five days a week at the NIU Rec Center</dd>
+            <dt>Video games:</dt>
+            <dd>When I have time, I like to play video games on my XboxOne</dd>
+            <dt>Music:</dt>
+            <dd>I like to listen to music any time that I can</dd>
+            <dt>Education</dt>
+            <dd>I am an OM&IS student at NIU and I am dedicated to my education</dd>
+        </dl>
+        <hr>
+    </body>
+</html>
