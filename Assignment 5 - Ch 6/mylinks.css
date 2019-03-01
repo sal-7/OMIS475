@@ -1,0 +1,21 @@
+body{
+    background-color:Black;
+    color:white;
+}
+
+a:link{
+    color:teal;
+}
+            
+ a:visited{
+    color:tomato;
+}
+            
+a:hover{
+    color:violet;
+    text-decoration:none;
+}
+
+a:active{
+    color:turquoise;
+}
