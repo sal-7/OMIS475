@@ -1,0 +1,21 @@
+body    {
+    background-color:#EF0107;
+    color:black;
+}
+
+h1  {
+    text-align:center;
+    color:white;
+}
+
+table   {
+    width:50%;
+    margin:auto;
+    background-color:#DB0007;
+    border:3px groove #063672;
+}
+
+td, th  {
+    background-color:white;
+    border:3px solid #9C824A;
+}
