@@ -1,0 +1,54 @@
+<!-- Programmers:   Bryce Frank         Z1733433
+                    Faisal Alharbi      Z1748509-->
+
+<DOCTYPE! html>
+<html>
+    <header>
+        <title>music_survey</title>
+        <link rel="stylesheet" href="musicSurvey.css">
+    </header>
+    <body>
+        <form><fieldset>
+            <h1>Music Survey</h1>
+            <label>Name:<br><input type="text" name="name"></label>
+            <br>
+            <label>E-mail:<br><input type="email" name="email"></label>
+            <fieldset>
+                <legend>Select Your Favorite Tyes of Music</legend>
+                <input type="checkbox" name="genre" value="Pop">Pop<br>
+                <input type="checkbox" name="genre" value="Classical">Classical<br>
+                <input type="checkbox" name="genre" value="Rock">Rock<br>
+                <input type="checkbox" name="genre" value="Folk">Folk<br>
+                <input type="checkbox" name="genre" value="Rap">Rap<br>
+                <input type="checkbox" name="genre" value="Other">Other
+            </fieldset>
+            <fieldset>
+                <legend>Selelct how often you purchase Music CDs</legend>
+                <input type="radio" name="frequency" value="Weekly">Weekly<br>
+                <input type="radio" name="frequency" value="Monthly">Monthly<br>
+                <input type="radio" name="frequency" value="Few times a year">A few times a year<br>
+                <input type="radio" name="frequency" value="Never">Never
+            </fieldset>
+            Select the locations you listen to music<br>
+            <select size="3">
+                <option value="home">Home</option><br>
+                <option value="car">Car</option><br>
+                <option value="outside">Outside</option><br>
+                <option value="work">Work</option><br>
+                <option value="subway">Subway</option>
+            </select><br>
+            What role does music play in your life?<br>
+            <textarea name="role" rows="10" cols="100"></textarea><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </body>
+    <footer>
+            <!-- Link to our emails -->
+            <p>
+                Bryce Frank Email:<a href="brycefrank28@gmail.com">Here</a><br>
+                Faisal Alharbi Email:<a href="harbifa@gmail.com">Here</a>
+            </p>
+        </footer>
+    </html>
