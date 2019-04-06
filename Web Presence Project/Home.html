@@ -8,182 +8,102 @@
   <link href="./style/theme.css" rel="stylesheet">
   <link href="./style/home-page-styles.css" rel="stylesheet">
   <link href="./style/niu_theme_new.css" rel="stylesheet" type="text/css">
-  <link href="https://use.fontawesome.com/dcfc86ee58.css" media="all" rel="stylesheet" />
-
-  <!-- for slider section -->
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+  <link href="https://use.fontawesome.com/dcfc86ee58.css" media="all" rel="stylesheet"/>
   <title>Home</title>
 </head>
-
 <body>
+<div id="wrap">
+  <div class="container-fluid">
+    <nav class="row navbar navbar-global ">
+      <ul class="nav navbar-nav global" id="global-home-link" style="display: none;">
+        <li class="active"><a href="https://niu.edu/" tabindex="2"> <span>←</span> NIU.edu <span
+              class="sr-only">(current)</span> </a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" id="globalnav">
+        <li class="dropdown">
+          <a href="#"></a><span style="padding:10px 6px; display:block"></span> </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-  <!-- header section -->
-  <div id="wrap">
+  <div class="navbar navbar-home navbar-fixed-top" id="slide-nav" role="navigation">
     <div class="container-fluid">
-      <nav class="row navbar navbar-global ">
-        <ul class="nav navbar-nav global" id="global-home-link" style="display: none;">
-          <li class="active"><a href="https://niu.edu/" tabindex="2"> <span>←</span> NIU.edu <span
-                class="sr-only">(current)</span> </a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="navbar navbar-home navbar-fixed-top" id="slide-nav" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header"><a class="navbar-brand-root" href="#"> <img alt="NIU Logo"
-              src="./style/niu-logo-homepage.png"> </a></div>
-        <div id="slidemenu">
-          <form action="#" class="navbar-form navbar-right">
-            <div class="form-group">
-              <inputname="cof" type="hidden" value="FORID:11"> <label class="sr-only" for="searchNIU">Search NIU</label>
-                <input class="form-control" id="searchNIU" maxlength="255" placeholder="Search NIU" tabindex="1"
-                  type="text">
-            </div>
-            <button class="btn" tabindex="1" type="submit"> <span class="glyphicon glyphicon-search"></span> <span
-                class="sr-only">Submit</span> </button>
-          </form>
-          <h2 style="color:white;padding-left:34%">OMIS Gazatte Webpage</h2>
-         
-        </div>
+      <div class="navbar-header"><a class="navbar-brand-root" href="#"> <img alt="NIU Logo" src="./style/niu-logo-homepage.png"> </a></div>
+      <div id="slidemenu">
+        <form action="#" class="navbar-form navbar-right">
+          <div class="form-group">
+             <inputname="cof" type="hidden" value="FORID:11"> <label class="sr-only" for="searchNIU">Search NIU</label>
+            <input class="form-control" id="searchNIU" maxlength="255"
+              placeholder="Search NIU" tabindex="1" type="text"></div>
+          <button class="btn" tabindex="1" type="submit"> <span class="glyphicon glyphicon-search"></span> <span
+              class="sr-only">Submit</span> </button>
+        </form>
+      
       </div>
     </div>
   </div>
-
-  <!-- body section -->
-  <div class="row" id="container">
-    <div class="column left" style="width:40%">
-      <div id="container-left">
-        <div class="right-textbox" style="margin-right:10px">
-          <h4>About</h4>
-          <p>“The OM&IS Gazette is a weekly newsletter sent from the academic department each week.
-            The Gazette is filled with pertinent information including upcoming events, important deadlines,
-            internship opportunities, and job postings.”</p>
-
-        </div>
-
-      </div>
-    </div>
-    <div class="column right" style="width:50%">
-
-      <div id="container-right" style="margin-top:20px">
-
-        <div class="w3-content w3-display-container">
-          <img class="mySlides" src="./images/slider1.jpg" style="width:100%">
-          <img class="mySlides" src="./images/slider4.jpg" style="width:100%">
-          <img class="mySlides" src="./images/slider3.jpg" style="width:100%">
-          <img class="mySlides" src="./images/slider2.jpg" style="width:100%">
-        </div>
+</div>
+  
 
 
 
-
-      </div>
-    </div>
-  </div>
-
-
-  <!-- footer section -->
   <footer class="row">
-    <div id="white-padding"></div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-lg-push-4 col-md-push-4 col-sm-push-4 niu-home">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-lg-push-4 col-md-push-4 col-sm-push-4 niu-home">
       <p><a href="./Home.html" target="new"><img alt="NIU Logo" src="./style/niu_logo.png"></a></p>
       <p><a href="./Home.html" target="new">NIU Home</a></p>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-lg-pull-4 col-md-pull-4 col-sm-pull-4 footer-about"
-      style="margin-left:10px">
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-lg-pull-4 col-md-pull-4 col-sm-pull-4 footer-about" style="margin-left:10px">
       <h3>Contact Us</h3>
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
+      <div class="col-lg-6 col-md-6 col-sm-6">
           <ul class="about-list">
-            <li><a class="apply" href="./Home.html">NIU College of Business</a></li>
-            <li><a href="./ContactUs.html">Barsema Hall</a></li>
-            <li><a href="./ContactUs.html">740 Garden Road</a></li>
-            <li><a href="./ContactUs.html">Dekalb, IL 60115</a></li>
-          </ul>
-        </div>
+              <li><a class="apply" href="./Home.html" >NIU College of Business</a></li>
+              <li><a href="./ContactUs.html">Barsema Hall</a></li>
+              <li><a href="./ContactUs.html">740 Garden Road</a></li>
+              <li><a href="./ContactUs.html">Dekalb, IL 60115</a></li>
+              </ul>
       </div>
-    </div>
-
-
-
-    <div class="col-lg-3 col-md-3 col-sm-3 address" style="margin-top: 1.65em;">
-      <div class="social">
-
-        <p class="text-right hidden-xs">
-          <a class="social" href="https://www.facebook.com/NorthernIllUniv" rel="noopener noreferrer" target="_blank">
-            <i aria-hidden="true" class="fa fa-facebook fa-fw" data-toggle="tooltip" data-original-title=""
-              title=""></i>
-            <span class="sr-only">Facebook</span>
-          </a>
-          <a class="social" href="https://twitter.com/NIUlive" rel="noopener noreferrer" target="_blank">
-            <i aria-hidden="true" class="fa fa-twitter fa-fw"></i>
-            <span class="sr-only">Twitter</span>
-          </a>
-          <a class="social" href="https://www.youtube.com/user/NorthernIllUniv" rel="noopener noreferrer"
-            target="_blank">
-            <i aria-hidden="true" class="fa fa-youtube fa-fw"></i>
-            <span class="sr-only">YouTube</span>
-          </a>
-          <a class="social" href="https://instagram.com/northern_illinois_university" rel="noopener noreferrer"
-            target="_blank">
-            <i aria-hidden="true" class="fa fa-instagram fa-fw"></i>
-            <span class="sr-only">Instagram</span>
-          </a>
-          <a class="social" href="https://www.linkedin.com/edu/school?id=18287" rel="noopener noreferrer"
-            target="_blank">
-            <i aria-hidden="true" class="fa fa-linkedin fa-fw"></i>
-            <span class="sr-only">LinkedIn</span>
-          </a>
-          <a class="social" href="https://www.snapchat.com/add/huskiesofniu" rel="noopener noreferrer" target="_blank">
-            <i aria-hidden="true" class="fa fa-snapchat-ghost fa-fw"></i>
-            <span class="sr-only">Snapchat</span>
-          </a>
-        </p>
-
       </div>
-    </div>
-  </footer>
+      </div>
 
+
+
+      <div class="col-lg-3 col-md-3 col-sm-3 address" style="margin-top: 1.65em;">
+          <div class="social">
+             
+              <p class="text-right hidden-xs">
+                <a class="social" href="https://www.facebook.com/NorthernIllUniv" rel="noopener noreferrer" target="_blank">
+                  <i aria-hidden="true" class="fa fa-facebook fa-fw" data-toggle="tooltip" data-original-title="" title=""></i>
+                  <span class="sr-only">Facebook</span>
+                </a> 
+                  <a class="social" href="https://twitter.com/NIUlive" rel="noopener noreferrer" target="_blank">
+                    <i aria-hidden="true" class="fa fa-twitter fa-fw"></i>
+                    <span class="sr-only">Twitter</span>
+                  </a> 
+                  <a class="social" href="https://www.youtube.com/user/NorthernIllUniv" rel="noopener noreferrer" target="_blank">
+                    <i aria-hidden="true" class="fa fa-youtube fa-fw"></i>
+                    <span class="sr-only">YouTube</span>
+                  </a> 
+                    <a class="social" href="https://instagram.com/northern_illinois_university" rel="noopener noreferrer" target="_blank">
+                      <i aria-hidden="true" class="fa fa-instagram fa-fw"></i>
+                      <span class="sr-only">Instagram</span>
+                    </a> 
+                    <a class="social" href="https://www.linkedin.com/edu/school?id=18287" rel="noopener noreferrer" target="_blank">
+                      <i aria-hidden="true" class="fa fa-linkedin fa-fw"></i>
+                      <span class="sr-only">LinkedIn</span>
+                    </a> 
+                    <a class="social" href="https://www.snapchat.com/add/huskiesofniu" rel="noopener noreferrer" target="_blank">
+                        <i aria-hidden="true" class="fa fa-snapchat-ghost fa-fw"></i>
+                      <span class="sr-only">Snapchat</span>
+                    </a>
+                    </p>
+                   
+          </div>
+      </div>
+      </footer>           
+ 
 
 </body>
-
-<script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = x.length }
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    x[slideIndex - 1].style.display = "block";
-  }
-
-  var slideIndex = 0;
-  carousel();
-
-  function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > x.length) { slideIndex = 1 }
-    x[slideIndex - 1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-  }
-
-
-</script>
 
 </html>
