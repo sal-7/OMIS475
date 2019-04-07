@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*General*/
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+/*main menu styles*/
+.navbar {
+  position: relative;
+  bottom: 0px;
+  min-height: 125px;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+}
+
+.navbar-brand-root {
+  float: left;
+  height: 50px;
+  padding: 0px 0px 0px 43px;
+  /*width: 400px;*/
+  font-family: "LucidaBri-Dem", serif;
+  font-weight: normal;
+  color: #000;
+  margin-top: -30px;
+}
+
+.navbar.navbar-home .navbar-brand-root h1 {
+  font-size: 24px;
+  line-height: 23px;
+  margin-top: 24px;
+  text-indent: -9999px;
+}
+.navbar-brand-root > img {
+  /* display: block; */
+  float: left;
+  margin-right: 14px;
+  max-width: 260px;
+}
+
+.nav-wrap {
+  position: fixed;
+  top: 30%;
+  right: 20px;
+  z-index: 100;
+  font-size: 1.25em;
+}
+
+#nav {
+  margin: 0 auto;
+  float: right;
+}
+
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 35%;
+  padding-bottom: 50px;
+}
+
+.right {
+  width: 65%;
+  padding-bottom: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 50px;
+}
+
+#heading-left {
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+
+#container-left {
+  padding-left: 50px;
+  margin-bottom: 90px;
+}
+
+#container-right{
+	margin-right:40px;
+	margin-top: 100px;
+	margin-bottom:20px;
+}
+
+#container {
+  margin-bottom: -80px;
+}
+
+#left-image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+
+#right-image {
+	border: 1px solid #ddd;
+	border-radius: 4x;
+	padding: 5px;
+	width: 400px;
+	margin-left:20px;
+  }
+
+
+
+.right-textbox {
+  border-style: groove;
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: 80px;
+  margin-left: 40px;
+}
+
+.left-textbox{
+  border-style:groove;
+  padding:20px;
+  background-color:#991821;
+  color:white
+}
+.datagrid table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+.datagrid {
+  background: #fff;
+  overflow: hidden;
+  border: 1px solid #991821;
+  border-radius: 3px;
+}
+.datagrid table td,
+.datagrid table th {
+  padding: 3px 10px;
+}
+.datagrid table thead th {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #991821),
+    color-stop(1, #80141c)
+  );
+  background: -moz-linear-gradient(center top, #991821 5%, #80141c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');
+  background-color: #991821;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  border-left: 1px solid #b01c26;
+}
+.datagrid table thead th:first-child {
+  border: none;
+}
+.datagrid table tbody td {
+  color: #80141c;
+  border-left: 1px solid #f7cdcd;
+  font-size: 12px;
+  font-weight: normal;
+}
+.datagrid table tbody .alt td {
+  background: #f7cdcd;
+  color: #80141c;
+}
+.datagrid table tbody td:first-child {
+  border-left: none;
+}
+.datagrid table tbody tr:last-child td {
+  border-bottom: none;
+}
+#white-padding{
+	padding-top:30px;
+	background-color:white;
+}
+
+footer:after{
+	padding-bottom:0px!important;
+}
+
+@media print {
+  aside#sidebar,header[role="banner"],footer,#comments,#respond {
+      display: none;
+  }
+}   
+
+body{
+  background-size: 1000px 800px;
+}
