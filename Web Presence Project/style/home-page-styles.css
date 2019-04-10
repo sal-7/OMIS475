@@ -16,7 +16,9 @@
   margin-bottom: 0px;
   border: 0px solid transparent;
 }
-
+#mainnav li{
+	font-size:14px
+}
 .navbar-brand-root {
   float: left;
   height: 50px;
